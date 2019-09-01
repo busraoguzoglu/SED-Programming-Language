@@ -1,0 +1,65 @@
+begin { 
+
+/Declarations
+x={a,b,c}
+y={a,b}
+z={d}
+
+/ y is subset of x => return TRUE
+boolean subsetFunc (x,y){
+	return x^y
+}
+
+/ x is superset of y => return TRUE
+boolean supersetFunc (x,y){
+	return x*y
+}
+
+/ z is not a subset of x => return FALSE
+boolean subsetFunc (x,z){
+	return x^z
+}
+
+/Union
+{2,3{34}}&{a,b,x,y}
+
+/Intersection
+{abcd,c3fg5}|{abcd,{2,3,4,5}}
+
+/Complement
+{2,3,4}’
+
+/Difference
+{2,3,4} \ {2,3}
+loop (FALSE){
+	z = {!}
+}
+
+/Input & Output statements
+in > {44,46,72,36}
+out < x
+
+/Function for union
+set unionFunc (x,y){
+	return x&y
+}
+
+/Union function call
+d = unionFunc(y,z)
+
+/If Statement
+if(FALSE) {
+	z =  {!}
+}
+
+else {
+	z = {a}
+
+/Declarations (variables, constants etc.)
+const a 
+set[] c = [{d,a,b}, {t,k,l}
+integer[] = [a,b,c]
+
+}
+
+
